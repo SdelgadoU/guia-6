@@ -1,0 +1,92 @@
+{
+  "fecha": "2026-11-08",
+  "navegador": "157.0.4341.42",
+  "entorno": "Chromium de escritorio en modo headless; resoluciones emuladas; no son dispositivos físicos",
+  "checks": [
+    {
+      "prueba": "Diseño computador",
+      "resultado": "Aprobada",
+      "detalle": "1440 × 1000 px; 3 columnas; sin desbordamiento; imágenes cargadas; controles ≥44 px; navegación visible."
+    },
+    {
+      "prueba": "Diseño tableta",
+      "resultado": "Aprobada",
+      "detalle": "768 × 1024 px; 2 columnas; sin desbordamiento; imágenes cargadas; controles ≥44 px; navegación visible."
+    },
+    {
+      "prueba": "Diseño movil",
+      "resultado": "Aprobada",
+      "detalle": "390 × 844 px; 1 columnas; sin desbordamiento; imágenes cargadas; controles ≥44 px; menú móvil comprobado."
+    },
+    {
+      "prueba": "Diseño movil_estrecho",
+      "resultado": "Aprobada",
+      "detalle": "320 × 740 px; 1 columnas; sin desbordamiento; imágenes cargadas; controles ≥44 px; menú móvil comprobado."
+    },
+    {
+      "prueba": "Búsqueda normalizada",
+      "resultado": "Aprobada",
+      "detalle": "DISENO encuentra las dos guías del tema Diseño, sin depender de mayúsculas ni tildes."
+    },
+    {
+      "prueba": "Filtros combinados",
+      "resultado": "Aprobada",
+      "detalle": "CSS + Intermedio devuelve únicamente Ordena ideas con Grid."
+    },
+    {
+      "prueba": "Estado vacío y reinicio",
+      "resultado": "Aprobada",
+      "detalle": "Consulta sin coincidencias muestra orientación; Ver todos los recursos restaura seis tarjetas."
+    },
+    {
+      "prueba": "Lista persistente",
+      "resultado": "Aprobada",
+      "detalle": "Guardar y recargar mantiene un recurso y el estado del botón."
+    },
+    {
+      "prueba": "Lectura y teclado",
+      "resultado": "Aprobada",
+      "detalle": "Diálogo con tres secciones; Escape lo cierra y devuelve el foco al botón de apertura."
+    },
+    {
+      "prueba": "Quitar y vaciar lista",
+      "resultado": "Aprobada",
+      "detalle": "Quitar elimina solo el recurso seleccionado; cancelar conserva la lista; confirmar la vacía."
+    },
+    {
+      "prueba": "Ayuda desplegable",
+      "resultado": "Aprobada",
+      "detalle": "La pregunta sobre almacenamiento muestra su respuesta."
+    },
+    {
+      "prueba": "Enlaces internos",
+      "resultado": "Aprobada",
+      "detalle": "Todos los destinos de navegación existen."
+    },
+    {
+      "prueba": "Datos locales inesperados",
+      "resultado": "Aprobada",
+      "detalle": "Se descartan identificadores desconocidos y duplicados."
+    },
+    {
+      "prueba": "Datos locales dañados",
+      "resultado": "Aprobada",
+      "detalle": "Un JSON inválido no bloquea el catálogo."
+    },
+    {
+      "prueba": "Almacenamiento bloqueado",
+      "resultado": "Aprobada",
+      "detalle": "La lista funciona en memoria y muestra un aviso claro."
+    },
+    {
+      "prueba": "Texto ampliado",
+      "resultado": "Aprobada",
+      "detalle": "Tamaño raíz al 200% en 390 px sin desbordamiento horizontal."
+    },
+    {
+      "prueba": "Errores de ejecución y recursos",
+      "resultado": "Aprobada",
+      "detalle": "No se registraron excepciones JavaScript ni respuestas HTTP de error."
+    }
+  ]
+}
